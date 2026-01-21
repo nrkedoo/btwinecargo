@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .wrapper { width: 100%; background-color: #f4f4f4; padding: 20px; }
+        .container { max-width: 600px; background-color: #ffffff; margin: 0 auto; border-radius: 8px; overflow: hidden; border: 1px solid #e0e0e0; }
+        
+        
+        .header { background-color: #102991; padding: 30px; text-align: center; color: white; }
+        .header h1 { margin: 0; letter-spacing: 2px; text-transform: uppercase; font-size: 22px; }
+        
+        .line { width: 40px; height: 3px; background-color: white; margin: 15px auto; }
+        
+        .content { padding: 40px; text-align: left; color: #333333; line-height: 1.6; }
+        .content h2 { color: #102991; text-transform: uppercase; font-size: 20px; text-align: center; }
+        
+        /* Liste à puces stylisée */
+        .features { list-style: none; padding: 0; }
+        .features li { margin-bottom: 10px; padding-left: 20px; position: relative; }
+        .features li::before { content: "•"; color: #102991; font-weight: bold; position: absolute; left: 0; }
+
+        .btn-container { text-align: center; padding: 20px; }
+        .btn { display: inline-block; background-color: #102991; color: white !important; padding: 15px 40px; text-decoration: none; border-radius: 4px; font-weight: bold; text-transform: uppercase; }
+        
+        .footer { padding: 30px; text-align: center; font-size: 12px; color: #666666; }
+        .footer a { color: #102991; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            
+                <h1><div class="pic-wrapper">
+            <img src="logo_btwin.png" alt="Logo B-TWIN" />
+        </div></h1>
+                <div class="line"></div>
+            
+
+            <div class="content">
+                <h2>Bienvenue dans l'aventure !</h2>
+                <p>Bonjour <strong>{Prénom}</strong>,</p>
+                
+                <p>C'est officiel : vous faites partie des quelques privilégiés qui seront informés en priorité de la sortie du nouveau <strong>BTWIN e-cargo</strong>.</p>
+
+                <p>Ce vélo, nous l'avons conçu pour transformer vos trajets quotidiens. Il n'est pas encore tout à fait prêt à rejoindre votre garage, mais nos équipes peaufinent les derniers détails pour vous offrir la meilleure expérience possible.</p>
+
+                <p>En restant inscrit à cette liste, vous recevrez :</p>
+                <ul class="features">
+                    <li><strong>Coulisses :</strong> Des photos exclusives de sa fabrication.</li>
+                    <li><strong>L'avant-première :</strong> Une invitation pour le tester avant tout le monde en magasin.</li>
+                    <li><strong>L'offre de lancement :</strong> Un avantage exclusif réservé aux inscrits.</li>
+                </ul>
+
+                <p>On vous en dit plus très bientôt. En attendant, préparez votre futur itinéraire !</p>
+                
+                <p>Sportivement,<br>
+                <strong>L'équipe Mobilité Décathlon</strong></p>
+            </div>
+
+            <div class="btn-container">
+                <a href="#" class="btn">Découvrir le projet</a>
+            </div>
+
+            <div class="footer">
+                 <footer class="social-footer">
+    <p>Suivez-nous sur les réseaux sociaux</p>
+        <div class="social-icons">
+    <a href="https://facebook.com/decathlon" target="_blank" aria-label="Facebook">
+        <img src="iconfb.png" alt="Facebook">
+    </a>
+    <a href="https://instagram.com/decathlon" target="_blank" aria-label="Instagram">
+        <img src="iconig.png" alt="Instagram">
+    </a>
+    <a href="https://youtube.com/decathlon" target="_blank" aria-label="Youtube">
+        <img src="iconyt.png" alt="Instagram">
+    </a>
+    <a href="https://x.com/decathlon" target="_blank" aria-label="X">
+        <img src="iconx.png" alt="Logo X">
+    </a>
+</div>
+        </footer>
+                <p>&copy; 2026 Decathlon. Tous droits réservés.<br>
+                Vous recevez cet email car vous avez manifesté votre intérêt pour le BTWIN e-cargo.</p>
+                <p><a href="#">Se désinscrire de cette liste</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
